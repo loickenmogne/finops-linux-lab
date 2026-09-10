@@ -34,3 +34,9 @@ The goal is to develop practical Linux skills that help me understand Cloud infr
 5. Troubleshooting
 6. Monitoring
 7. FinOps-oriented analysis
+
+## Linux Environment
+
+This laboratory is running on an Ubuntu virtual machine.
+
+The environment is used to practice Linus administration, system monitoring, networking, troubleshooting, and Cloud-oriented infrastructure concepts.

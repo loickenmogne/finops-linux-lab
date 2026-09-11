@@ -40,26 +40,26 @@ id engineer
 
 'bash
  
-sudo groupadd finops
-sudo groupadd cloud
-sudo usermod -aG finops analyst
-sudo usermod -aG cloud engineer
-getent group finops
-getent group cloud
+-sudo groupadd finops
+-sudo groupadd cloud
+-sudo usermod -aG finops analyst
+-sudo usermod -aG cloud engineer
+-getent group finops
+-getent group cloud
 
 ### Permissions
 
 'bash
 
-chmod 644 file
-chmod 600 file
-chmod 750 directory
+-chmod 644 file
+-chmod 600 file
+-chmod 750 directory
 
 ### Ownership
 
 'bash
 
-chown user:group file
+-chown user:group file
 
 ''' test
 

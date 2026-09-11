@@ -38,7 +38,8 @@ id engineer
 
 ### Group management
 
-'''bash 
+'bash
+ 
 sudo groupadd finops
 sudo groupadd cloud
 sudo usermod -aG finops analyst
@@ -48,14 +49,16 @@ getent group cloud
 
 ### Permissions
 
-'''bash
+'bash
+
 chmod 644 file
 chmod 600 file
 chmod 750 directory
 
 ### Ownership
 
-'''bash
+'bash
+
 chown user:group file
 
 ''' test
